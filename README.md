@@ -18,6 +18,7 @@ Features
 
    Code Explanation
 
+
 1. Message Encoding (Hiding the Message)
    
 The script uses the least significant bit (LSB) method to hide the secret message in the image. Here's how the process works:
