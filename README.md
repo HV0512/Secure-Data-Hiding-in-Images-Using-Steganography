@@ -17,7 +17,7 @@ Features
 5. Simple Interface: User-friendly prompts for entering secret messages and passcodes.
 
    Code Explanation
-   
+
 1. Message Encoding (Hiding the Message)
    
 The script uses the least significant bit (LSB) method to hide the secret message in the image. Here's how the process works:
@@ -48,7 +48,8 @@ The results include the accuracy scores for all classifiers, with the XGBoost mo
 
 Here are some sample of result
 
-![Screenshot 2025-02-19 214515](https://github.com/user-attachments/assets/8ed27b37-3a2d-42e3-8167-40f121b6f45e)
+![Screenshot 2025-02-19 223013](https://github.com/user-attachments/assets/384ed861-7dae-476a-8a53-b5d27a1b389b)
+
 
 Contributing
 
