@@ -14,10 +14,8 @@ Features
 2. Password Protection: Only authorized users with the correct passcode can decrypt the hidden message.
 3. Cross-Platform Compatibility: Runs on any system with Python and OpenCV installed.
 4. Preserved Image Integrity: The visual appearance of the image remains unchanged, even though the message is hidden inside the pixel data.
-5. Simple Interface: User-friendly prompts for entering secret messages and passcodes.
 
    Code Explanation
-
 
 1. Message Encoding (Hiding the Message)
    
