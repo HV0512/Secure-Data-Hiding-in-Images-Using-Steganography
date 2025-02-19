@@ -11,14 +11,19 @@ The program uses OpenCV to manipulate image data and enables users to securely e
 Features
 
 1. Image-Based Steganography: Securely embeds a secret message into an image using pixel values.
+
 2. Password Protection: Only authorized users with the correct passcode can decrypt the hidden message.
+
 3. Cross-Platform Compatibility: Runs on any system with Python and OpenCV installed.
+
 4. Preserved Image Integrity: The visual appearance of the image remains unchanged, even though the message is hidden inside the pixel data.
 
-   Code Explanation
+5. Simple Interface: User-friendly prompts for entering secret messages and passcodes.
+
+Code Explanation
 
 1. Message Encoding (Hiding the Message)
-   
+
 The script uses the least significant bit (LSB) method to hide the secret message in the image. Here's how the process works:
 
 • The secret message is converted to its ASCII equivalent.
@@ -38,14 +43,14 @@ When the user provides the correct passcode for decryption:
 • The decoded message is then printed.
 
 3. Password Protection
-   
+
 The program requires a passcode to decrypt the hidden message. This provides an extra layer of security. If the passcode does not match the one used during encoding, the message will not be revealed.
 
 Results
 
 The results include the accuracy scores for all classifiers, with the XGBoost model generally performing the best. The confusion matrix for the best model is also printed for a deeper understanding of its predictions.
 
-Here are some sample of result
+Here are some sample of result:
 
 ![Screenshot 2025-02-19 223013](https://github.com/user-attachments/assets/384ed861-7dae-476a-8a53-b5d27a1b389b)
 
