@@ -16,10 +16,9 @@ Features
 4. Preserved Image Integrity: The visual appearance of the image remains unchanged, even though the message is hidden inside the pixel data.
 5. Simple Interface: User-friendly prompts for entering secret messages and passcodes.
 
-
    Code Explanation
 
-1.Message Encoding (Hiding the Message)
+1. Message Encoding (Hiding the Message)
    
 The script uses the least significant bit (LSB) method to hide the secret message in the image. Here's how the process works:
 
